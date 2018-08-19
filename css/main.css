@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../imagens/Ativo1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Estilização do logo */
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+}
+
+.logo img{
+    width: 128px;
+    height: 128px;
+}
+
+.logo h1{
+    font-size: 48pt;
+    color: #F411E4;
+    margin-top: 32px;
+}
+
+.logo h2{
+    font-size: 36pt;
+    color: #B4B4B4;
+    letter-spacing: 10px;
+}
+
+/* Estilização dos Inputs */
+
+.form_int{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.email{
+    width: 480px;
+    height: 32px;
+    border-radius: 10px;
+    border: 2px solid #F411E4;
+    font-size: 15pt;
+    padding-left: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+
+.senha{
+    width: 480px;
+    height: 32px;
+    border-radius: 10px;
+    margin-top: 14px;
+    margin-bottom: 31px;
+    border: 2px solid #F411E4;
+    font-size: 15pt;
+    padding-left: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+
+.botao{
+    width: 99px;
+    height: 48px;
+    background-color: #F411E4;
+    border: 0;
+    border-radius: 20px;
+    color: #EFB4EF;
+    font-size: 12pt;
+    cursor: pointer;
+}
+
+.form_int a{
+    margin-top: 27px;
+    font-size: 18pt;
+    color: #F411E4;
+    text-decoration: none;
+}
+
+.form_int a span{
+    color: #16E5EF;
+}
