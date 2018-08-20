@@ -7,7 +7,7 @@
 }
 
 body{
-    background-image: url("../imagens/Ativo1.png");
+    background-image: url("../imagens/Ativo3.png"), url("../imagens/Ativo1.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
