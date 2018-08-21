@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../imagens/Ativo1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo_text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 65px;
+    width: 925px;
+}
+
+.logo_text span{
+    color: #F411E4;
+    font-size: 72pt;
+}
+
+.logo_text img{
+    width: 128px;
+    height: 128px;
+}
+
+.container{
+    display: flex;
+}
+
+.register{
+    display: flex;
+    flex-direction: column;
+    width: 426px;
+}
+
+.form_int{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 86px;
+}
+
+.form_int img{
+    margin-top: -73px;
+    margin-bottom: 21px;
+}
+
+.text_edit{
+    width: 398px;
+    height: 32px;
+    border-radius: 10px;
+    border: 2px solid #F411E4;
+    font-size: 10pt;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    letter-spacing: 2px;
+}
+
+::-webkit-input-placeholder {
+   color: #EFB4EF;
+}
+
+.mg_bo{
+    margin-bottom: 16px;
+}
+
+.btn{
+    width: 123.5px;
+    height: 48px;
+    color: white;
+    background-color: #F411E4;
+    border: 0;
+    border-radius: 17px;
+    font-size: 12pt;
+    letter-spacing: 2px;
+    margin-top: 33px;
+}
+
+.form_int a{
+    color: #B4B4B4;
+    text-decoration: none;
+    font-size: 13pt;
+    letter-spacing: 2px;
+    margin-top: 70px;
+    margin-left: 180px;
+}
+
+.form_int a span{
+    color: #16E5EF;
+}
+
+.register .span_um{
+    font-size: 30pt;
+    color: #B4B4B4;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 70px;
+}
